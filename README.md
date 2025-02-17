@@ -1,10 +1,10 @@
-Generatore di Battute Random
+# Generatore di Battute Random
 Generatore di battute random che usa l'API di jokeapi.dev.
 
-Introduzione
+## Introduzione
 Questo progetto è un generatore di battute casuali costruito con Node.js e Express. Recupera le battute dall'API jokeapi.dev e le serve tramite un endpoint API.
 
-Installazione
+## Installazione
 Per iniziare con questo progetto, clona il repository e installa le dipendenze:
 
 ```
