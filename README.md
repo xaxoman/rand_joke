@@ -16,22 +16,17 @@ npm install
 ## Utilizzo
 Per avviare il server, esegui:
 ```
-bash
 npm start
 ```
 
 Il server sarà in esecuzione su `http://localhost:3000`
 
-Endpoint API
-GET /api/joke?category=<category>: Recupera una battuta casuale. La categoria è opzionale e predefinita a Any.
-
 Esempio:
 ```
-bash
 curl http://localhost:3000/api/joke?category=Programming
 ```
 
-Dipendenze
+Dependencies
 - express: ^4.21.2
 - node-fetch: ^3.3.2 (necessario per versioni di Node.js < 18)
 - sv443-joke-api: ^0.1.0
